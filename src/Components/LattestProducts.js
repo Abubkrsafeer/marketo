@@ -12,6 +12,15 @@ export default function LattestProducts() {
                   <div className="col-md-6 col-lg-3">
                       <ProductCard />
                   </div>
+                  <div className="col-md-6 col-lg-3">
+                      <ProductCard />
+                  </div>
+                  <div className="col-md-6 col-lg-3">
+                      <ProductCard />
+                  </div>
+                  <div className="col-md-6 col-lg-3">
+                      <ProductCard />
+                  </div>
                   
               </div>
           </div>

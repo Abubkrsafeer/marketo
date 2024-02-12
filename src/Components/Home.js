@@ -3,13 +3,15 @@ import Banner from './Banner'
 import Header from './Header'
 import Categories from './Categories'
 import LattestProducts from './LattestProducts'
+import CtaBanner from './CtaBanner'
 export default function Home() {
   return (
     <div>
         <Header />
         <Banner />
-        <Categories/>
-        <LattestProducts/>
+        <Categories />
+        <LattestProducts />
+        <CtaBanner/>
     </div>
   )
 }

@@ -6,6 +6,11 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+.Cta_sec{
+    background-image: url('./Assets/salebg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 .banner-sec-main::before{
     content: '';
     position: absolute;
@@ -17,4 +22,7 @@
 }
 .z-9{
 z-index: 9;
+}
+.min-400{
+    min-height: 400px;
 }

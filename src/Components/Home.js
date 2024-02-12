@@ -38,7 +38,7 @@ export default function Home() {
       <CtaBanner />
       <FeaturedSec ids={[12, 15]} />
       <Testimonials />
-      {/* <BlogsNews/> */}
+      <BlogsNews/>
     </div>
   );
 }

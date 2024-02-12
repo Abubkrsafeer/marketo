@@ -19,7 +19,7 @@ export default function LattestProducts(props) {
                 </div>
                 <div className="categories_wrapper row">
                     {/* Check if productsArray is not undefined before mapping */}
-                    {productsArray && productsArray.map(product => (
+                    {productsArray && productsArray.slice(0,8).map(product => (
                         <div className="col-md-6 col-lg-3" key={product.id}>
                             {/* Pass product as a prop to ProductCard */}
                             <ProductCard product={product} />

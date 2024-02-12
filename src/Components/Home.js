@@ -35,7 +35,7 @@ export default function Home() {
       <Categories categories={categories} />
       <LattestProducts products={products.products} />
       <CtaBanner />
-      <FeaturedSec />
+      <FeaturedSec ids={[12, 15]} />
       <Testimonials />
     </div>
   );

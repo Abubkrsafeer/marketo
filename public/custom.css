@@ -14,6 +14,10 @@
 .product-card{
     max-width: 300px;
 }
+.product-card-thumb{
+    height: 250px;
+    object-fit: contain;
+}
 .banner-sec-main::before{
     content: '';
     position: absolute;

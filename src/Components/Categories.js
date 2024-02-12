@@ -1,6 +1,7 @@
 import React from "react";
 import CategoryItem from "./CategoryItem";
-export default function Categories() {
+export default function Categories(props) {
+
   return (
     <section className="category_section my-5">
       <div className="container">
@@ -9,24 +10,10 @@ export default function Categories() {
           <p>Lorem Ipsum goes In farans To get Knowledge</p>
         </div>
         <div className="categories_wrapper row">
-          <div className="col-md-2">
-            <CategoryItem />
-          </div>
-          <div className="col-md-2">
-            <CategoryItem />
-          </div>
-          <div className="col-md-2">
-            <CategoryItem />
-          </div>
-          <div className="col-md-2">
-            <CategoryItem />
-          </div>
-          <div className="col-md-2">
-            <CategoryItem />
-          </div>
-          <div className="col-md-2">
-            <CategoryItem />
-          </div>
+          {props.categories.slice(0, 6).map((category, index) => (
+          <div className="col-md-2" key={index}>
+            <CategoryItem title={category} itemNo={index} />
+          </div>))}
         </div>
       </div>
     </section>

@@ -6,6 +6,7 @@ import LattestProducts from './LattestProducts';
 import CtaBanner from './CtaBanner';
 import FeaturedSec from './FeaturedSec';
 import Testimonials from './Testimonials';
+import BlogsNews from './BlogsNews';
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -37,6 +38,7 @@ export default function Home() {
       <CtaBanner />
       <FeaturedSec ids={[12, 15]} />
       <Testimonials />
+      {/* <BlogsNews/> */}
     </div>
   );
 }

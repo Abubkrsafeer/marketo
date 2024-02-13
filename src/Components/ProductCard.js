@@ -11,8 +11,8 @@ export default function ProductCard(props) {
         <div className="card product-card shadow p-2 m-2">
             <img src={product.thumbnail} className="product-card-thumb img-fluid"  alt="..." />
             <div className="card-body">
-                <h5 className="card-title">{product.title.slice(0,25)}</h5>
-                <p className="card-text">{product.description.slice(0,60)}</p>
+                <h5 className="card-title">{product.title}</h5>
+                <p className="card-text">{product.description}</p>
                 <a href="/" className="btn btn-primary">Go somewhere</a>
             </div>
         </div>
